@@ -1,0 +1,21 @@
+{
+  "name": "react-step-lab",
+  "private": true,
+  "version": "1.0.0",
+  "description": "React 闯关实验室 —— 11 个由浅入深的练习关卡",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@babel/standalone": "^8.0.4",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.4",
+    "vite": "^8.1.5"
+  }
+}
