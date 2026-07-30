@@ -17,7 +17,7 @@ export default function LevelMap({ progress, onOpen }) {
           React <span className="hl">闯关</span>实验室
         </h1>
         <p>
-          16 个由浅入深的关卡,从 JSX 一路练到 React 19 新特性。每一关都有:任务清单、
+          20 个由浅入深的关卡,对标 React 官方文档,从 JSX 一路练到 React 19 新特性。每一关都有:任务清单、
           可运行的练习代码、参考答案和知识要点。改动源码后页面会热更新,
           完成任务就"盖章过关"。你的进度会自动保存在浏览器里。
         </p>

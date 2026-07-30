@@ -1,6 +1,6 @@
 # React 闯关实验室 🎮
 
-一个「边学边练」的 React 学习项目:16 个由浅入深的关卡,从 JSX 一路练到 React 19 新特性。
+一个「边学边练」的 React 学习项目:20 个由浅入深的关卡,对标 React 官方文档学习路径,从 JSX 一路练到 React 19 新特性。
 每一关都有**任务清单**、**可运行的练习代码**、**参考答案**和**知识要点**。
 
 ## 🚀 启动
@@ -59,24 +59,30 @@ npm run dev     # 启动开发服务器,浏览器会自动打开
 
 ## 📚 关卡一览
 
-| # | 关卡 | 难度 | 核心概念 |
+对标 [React 官方文档](https://react.dev/learn) 的学习路径,分 5 个阶段:
+
+| # | 关卡 | 阶段 | 核心概念 |
 |---|------|------|----------|
-| 01 | JSX 与元素 | 入门 | JSX、`{}` 表达式 |
-| 02 | Props 组件传参 | 入门 | props、组件复用、解构、默认值 |
-| 03 | State 与事件 | 基础 | `useState`、事件处理、函数式更新 |
-| 04 | 条件渲染 | 基础 | 三元、`&&`、`0` 的坑 |
-| 05 | 列表渲染与 key | 基础 | `map`、`key`、`filter` |
-| 06 | 受控表单 | 基础 | 受控组件、校验、`onSubmit` |
-| 07 | 状态提升 | 进阶 | 单向数据流、共享 state |
-| 08 | useEffect 副作用 | 进阶 | 副作用、清理函数、StrictMode |
-| 09 | 自定义 Hook | 进阶 | `useXxx`、逻辑复用、localStorage |
-| 10 | Context 跨层传递 | 进阶 | `createContext`、`useContext` |
-| 11 | 毕业挑战:购物车 | 毕业挑战 | 综合实战、不可变更新、派生数据 |
-| 12 | use + Suspense | React 19 新知 | `use` 读取 Promise、`<Suspense>` |
-| 13 | Actions 表单 | React 19 新知 | `<form action>`、`useActionState`、`useFormStatus` |
-| 14 | useOptimistic 乐观更新 | React 19 新知 | 乐观 UI、自动回滚 |
-| 15 | React 19 实用改进合集 | React 19 新知 | ref 作为 prop、文档元数据、ref 清理函数 |
-| 16 | 并发渲染:Transition | React 19 新知 | `useTransition`、`useDeferredValue`、大列表不卡顿 |
+| 01 | JSX 与元素 | 描述 UI | JSX、`{}` 表达式 |
+| 02 | 组件与 Props | 描述 UI | props、组件复用、解构、默认值 |
+| 03 | 条件渲染 | 描述 UI | 三元、`&&`、`0` 的坑 |
+| 04 | 列表渲染与 key | 描述 UI | `map`、`key`、`filter` |
+| 05 | 事件与 State | 添加交互 | `useState`、事件处理、函数式更新 |
+| 06 | State 是快照 | 添加交互 | 快照模型、为什么 setState 后读不到新值 |
+| 07 | 更新对象与数组 | 添加交互 | 不可变性、spread、嵌套更新 |
+| 08 | 受控表单 | 添加交互 | 受控组件、校验、`onSubmit` |
+| 09 | 状态提升 | 管理状态 | 单向数据流、共享 state |
+| 10 | State 的保留与重置 | 管理状态 | key 重置组件、位置决定 state |
+| 11 | useReducer | 管理状态 | reducer、dispatch、复杂状态 |
+| 12 | Context 跨层传递 | 管理状态 | `createContext`、`useContext` |
+| 13 | Ref 与 DOM | 逃生舱 | `useRef`、DOM 操作、ref 作为 prop |
+| 14 | useEffect 深入 | 逃生舱 | 副作用、清理、"你可能不需要 effect" |
+| 15 | 自定义 Hook | 逃生舱 | `useXxx`、逻辑复用、localStorage |
+| 16 | 毕业挑战:购物车 | 毕业挑战 | 综合实战、不可变更新、派生数据 |
+| 17 | use + Suspense | React 19 | `use` 读取 Promise、`<Suspense>` |
+| 18 | Actions + 乐观更新 | React 19 | `useActionState`、`useOptimistic` |
+| 19 | 并发渲染:Transition | React 19 | `useTransition`、`useDeferredValue` |
+| 20 | R19 改进 + Compiler | React 19 | ref prop、文档元数据、Compiler |
 
 ## 🧭 项目结构
 
